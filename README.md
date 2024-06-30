@@ -1,6 +1,6 @@
 # HTMLLの始め方
 HTMLでは、まずこのコードを書くところから始める
-'''HTML
+'''
 <!DOCTYPE html>
 <html>
 <head>
