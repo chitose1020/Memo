@@ -24,3 +24,7 @@ try {
  //URLが無効な場合の処理
 }
 ```
+# JavaScriptを使ってリダイレクトする
+```js
+window.location.href = "リダイレクトしたいURL";
+```
