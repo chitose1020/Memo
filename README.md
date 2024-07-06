@@ -28,3 +28,11 @@ try {
 ```js
 window.location.href = "リダイレクトしたいURL";
 ```
+# オブジェクトがHTMLElementか判定する
+```js
+if (Obj instanceof HTMLElement) {
+ //HTMLElementである
+}else{
+ //HTMLElementではない
+}
+```
