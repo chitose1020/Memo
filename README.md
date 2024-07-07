@@ -36,3 +36,8 @@ if (Obj instanceof HTMLElement) {
  //HTMLElementではない
 }
 ```
+# ページ全体のカーソルのスタイルを変更する
+bodyではなく、htmlを指定する
+```js
+document.body.parentElement.style.cursor = "変更したいスタイル";
+```
