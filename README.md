@@ -41,3 +41,7 @@ bodyではなく、htmlを指定する
 ```js
 document.body.parentElement.style.cursor = "変更したいスタイル";
 ```
+# サブモジュール
+まず、Gitbashを開き、サブモジュールを使いたいローカルリポジトリで、  
+`$ git submodule add https://github.com/リポジトリの作成者名/リポジトリ名`を実行し、  
+それをコミットする。
